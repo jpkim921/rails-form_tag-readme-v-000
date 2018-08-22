@@ -5,6 +5,7 @@ describe 'new post' do
     visit new_post_path
     expect(page.status_code).to eq(200)
   end
+<<<<<<< HEAD
 
   it 'renders HTML in the /new template' do
     visit new_post_path
@@ -23,4 +24,6 @@ describe 'new post' do
    expect(page).to have_content('My post description')
   end
 
+=======
+>>>>>>> 00f9d75e2bd3b32f0697e4a8bae588ad0ef5064a
 end
